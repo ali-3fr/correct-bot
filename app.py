@@ -377,11 +377,14 @@ def delete(bot, update):
 
 def boolean_test(curse_list,string):
     for word in curse_list:
-        if string.find(word):
+        if word in string:
             return True
     return False
 
+
+
 curse_list_not_ordinary=["بی شرف","پی وی","pi vi","pe ve","pi ve","pe vi"]
+
 
 
 def delete_curse(bot , update):
