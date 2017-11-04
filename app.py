@@ -350,7 +350,8 @@ curse_list = ["Kir", "Kos" , "Jende" ,  "Chende" , "Ghahbe" ,  "Gahbe" , "Gahba"
               "سیک","سیکیمجان",
               "گاماز","جندا","اسگیح","اسگیه","دلغ","دلاغ","دلاخ","دلخ","آمجخ","ننسی قهبه","گوتورن","گوت","بگائی",
               "بگایی","گائدی",
-              "گائیدی","گایدی","گاییدی","گائش","گایش","گایدمت","گائدمت","گائیدیمت","گایدیم","گاییدیم","کوس","فاک"]
+              "گائیدی","گایدی","گاییدی","گائش","گایش","گایدمت","گائدمت","گائیدیمت","گایدیم","گاییدیم","کوس","فاک",
+              "كون"]
 
 
 #print(curse_list)
@@ -385,7 +386,8 @@ def boolean_test(curse_list,string):
 
 curse_list_not_ordinary=["بی شرف","پی وی","pi vi","pe ve","pi ve","pe vi"]
 
-
+if "كون" in curse_list:
+    print("yes yes yes")
 
 def delete_curse(bot , update):
     main_text1  =update.message.text.replace("!", " ")
